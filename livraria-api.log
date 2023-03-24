@@ -1,0 +1,297 @@
+2022-06-28T22:35:07.366Z [livraria-api] info POST /cliente - {"clienteId":4,"nome":"Testeeeeeeeee","email":"old@hotmail.com","senha":"123","telefone":"379131","endereco":"apartamento2"}
+2022-06-28T22:36:52.866Z [livraria-api] info GET /cliente/id
+2022-06-28T22:42:19.527Z [livraria-api] info GET /cliente/id
+2022-06-28T22:42:58.118Z [livraria-api] info GET /cliente/id
+2022-06-28T22:50:09.487Z [livraria-api] info POST /autor - {"autorId":1,"nome":"O pequeno principe","email":"autor@hotmail.com","telefone":"32510505"}
+2022-06-28T22:50:17.756Z [livraria-api] info GET /autor/id
+2022-06-28T22:50:39.416Z [livraria-api] info POST /autor - {"autorId":2,"nome":"Gambito da Rainha","email":"netflix@hotmail.com","telefone":"32510505"}
+2022-06-28T22:50:41.125Z [livraria-api] info GET /autor/id
+2022-06-28T22:55:15.154Z [livraria-api] error GET  - LivroRepository.getLivroes is not a function
+2022-06-28T22:56:58.255Z [livraria-api] info DELETE /autor/id
+2022-06-28T22:57:01.684Z [livraria-api] info DELETE /autor/id
+2022-06-28T22:57:22.835Z [livraria-api] info POST /autor - {"autorId":3,"nome":"Timothy Keler","email":"timo@hotmail.com","telefone":"32510505"}
+2022-06-28T22:57:35.948Z [livraria-api] info POST /autor - {"autorId":4,"nome":"Luciano subira","email":"subira@hotmail.com","telefone":"32510505"}
+2022-06-28T22:59:56.980Z [livraria-api] error PUT  - cliente_id is not defined
+2022-06-28T23:00:03.111Z [livraria-api] info GET /cliente/id
+2022-06-28T23:04:24.333Z [livraria-api] error POST  - Nome, E-mail e Telefone são obrigatórios.
+2022-06-28T23:04:33.690Z [livraria-api] error POST  - Nome, Valor, Estoque e Autor são obrigatórios.
+2022-06-28T23:28:41.689Z [livraria-api] info POST /livro - {"livroId":1,"nome":"Gambito da Rainha","valor":"15.5","estoque":2,"autorId":3}
+2022-06-28T23:43:56.460Z [livraria-api] error POST  - Nome, Valor, Estoque e Autor são obrigatórios.
+2022-06-28T23:43:59.877Z [livraria-api] error POST  - Nome, Valor, Estoque e Autor são obrigatórios.
+2022-06-28T23:44:35.820Z [livraria-api] error POST  - Valor, Data, Cliente e Livro são obrigatórios.
+2022-06-28T23:44:49.082Z [livraria-api] info POST /venda - {"vendaId":1,"valor":"35","data":"2000-01-01","clienteId":1,"livroId":1}
+2022-06-28T23:52:03.201Z [livraria-api] info POST /venda - {"vendaId":2,"valor":"35","data":"2000-01-01","clienteId":2,"livroId":1}
+2022-06-28T23:52:06.552Z [livraria-api] error POST  - insert or update on table "vendas" violates foreign key constraint "fk_clientes"
+2022-06-28T23:52:20.079Z [livraria-api] info POST /venda - {"vendaId":4,"valor":"355","data":"2000-01-01","clienteId":1,"livroId":1}
+2022-06-28T23:53:14.508Z [livraria-api] info POST /venda - {"vendaId":5,"valor":"3555","data":"2000-01-01","clienteId":1,"livroId":1}
+2022-06-29T00:04:22.899Z [livraria-api] info GET /venda/id
+2022-06-29T22:12:49.970Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:12:57.066Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:13:07.388Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:14:11.097Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:14:25.194Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:14:57.270Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:15:01.610Z [livraria-api] error DELETE  - cliente nao tem venda!!
+2022-06-29T22:15:07.614Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:15:11.422Z [livraria-api] error DELETE  - cliente nao tem venda!!
+2022-06-29T22:15:22.782Z [livraria-api] error DELETE  - cliente nao tem venda!!
+2022-06-29T22:15:27.500Z [livraria-api] error DELETE  - cliente tem venda!!
+2022-06-29T22:16:02.312Z [livraria-api] error DELETE  - Já existe venda para o cliente.
+2022-06-29T22:16:08.809Z [livraria-api] info DELETE /cliente/id
+2022-06-29T22:17:51.653Z [livraria-api] error PUT  - Autor ID, Nome, Telefone e Email são obrigatórios.
+2022-06-29T22:19:27.405Z [livraria-api] error PUT  - autor_id is not defined
+2022-06-29T22:23:49.832Z [livraria-api] error DELETE  - Ja existem livros cadastrados com esse Autor!
+2022-06-29T22:24:07.854Z [livraria-api] info POST /livro - {"livroId":2,"nome":"Biblia","valor":"15.5","estoque":2,"autorId":4}
+2022-06-29T22:24:13.036Z [livraria-api] error DELETE  - Ja existem livros cadastrados com esse Autor!
+2022-06-29T22:24:23.093Z [livraria-api] info POST /autor - {"autorId":5,"nome":"Testeeee","email":"subira@hotmail.com","telefone":"32510505"}
+2022-06-29T22:24:26.897Z [livraria-api] info DELETE /autor/id
+2022-06-29T22:24:33.022Z [livraria-api] info POST /autor - {"autorId":6,"nome":"Testeeee","email":"subira@hotmail.com","telefone":"32510505"}
+2022-06-29T22:28:40.521Z [livraria-api] info POST /livro - {"livroId":3,"nome":"TTTTTESTE","valor":"15.5","estoque":20,"autorId":6}
+2022-06-29T22:28:43.590Z [livraria-api] info POST /livro - {"livroId":4,"nome":"TTTTTESTE","valor":"15.5","estoque":20,"autorId":6}
+2022-06-29T22:29:09.952Z [livraria-api] error PUT  - WHERE parameter "livro_id" has invalid "undefined" value
+2022-06-29T22:29:39.091Z [livraria-api] error PUT  - WHERE parameter "livro_id" has invalid "undefined" value
+2022-06-29T22:30:20.764Z [livraria-api] error PUT  - Nome, Valor, Estoque e Autor são obrigatórios.
+2022-06-29T22:30:30.106Z [livraria-api] error PUT  - LivroId, Nome, Valor, Estoque e Autor são obrigatórios.
+2022-06-29T22:30:50.361Z [livraria-api] error PUT  - livro_id is not defined
+2022-06-29T22:33:52.901Z [livraria-api] error PUT  - Apenas o Valor do livro pode ser obrigatórios.
+2022-06-29T22:33:59.755Z [livraria-api] error PUT  - Apenas o Valor do livro pode ser obrigatórios.
+2022-06-29T22:34:02.053Z [livraria-api] error PUT  - Apenas o Valor do livro pode ser obrigatórios.
+2022-06-29T22:34:11.953Z [livraria-api] error PUT  - livro_id is not defined
+2022-06-29T22:40:04.344Z [livraria-api] info DELETE /livro/id
+2022-06-29T22:40:26.793Z [livraria-api] error DELETE  - Existem vendas para este Livro!
+2022-06-29T22:41:03.742Z [livraria-api] info GET /livro/id
+2022-06-29T22:57:03.499Z [livraria-api] info POST /livro - {"livroId":5,"nome":"TTTTTESTE4444","valor":"15.5","estoque":1,"autorId":6}
+2022-06-29T22:57:21.037Z [livraria-api] info POST /venda - {"vendaId":6,"valor":"15.5","data":"2000-01-01","clienteId":1,"livroId":5}
+2022-06-29T23:01:02.787Z [livraria-api] error POST  - Nao deve informar o valor!
+2022-06-29T23:01:31.475Z [livraria-api] error POST  - insert or update on table "vendas" violates foreign key constraint "fk_livros"
+2022-06-29T23:02:08.877Z [livraria-api] error POST  - insert or update on table "vendas" violates foreign key constraint "fk_livros"
+2022-06-29T23:02:40.889Z [livraria-api] info GET /livro/id
+2022-06-29T23:03:11.958Z [livraria-api] error POST  - LivroId Nao existe!
+2022-06-29T23:03:22.001Z [livraria-api] error POST  - LivroId Nao existe!
+2022-06-29T23:03:40.319Z [livraria-api] info POST /venda - {"vendaId":9,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"15.5"}
+2022-06-29T23:03:49.908Z [livraria-api] info GET /livro/id
+2022-06-29T23:05:49.227Z [livraria-api] info POST /venda - {"vendaId":10,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"15.5"}
+2022-06-29T23:05:57.765Z [livraria-api] info GET /livro/id
+2022-06-29T23:10:58.489Z [livraria-api] info POST /venda - {"vendaId":11,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"15.5"}
+2022-06-29T23:14:14.160Z [livraria-api] info POST /venda - {"vendaId":12,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"15.5"}
+2022-06-29T23:15:38.473Z [livraria-api] info POST /venda - {"vendaId":13,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-29T23:17:41.117Z [livraria-api] error POST  - O livro informado nao possui estoque.
+2022-06-29T23:18:35.544Z [livraria-api] error POST  - O livro informado nao possui estoque.
+2022-06-29T23:18:40.144Z [livraria-api] info POST /venda - {"vendaId":14,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-29T23:18:51.444Z [livraria-api] info POST /venda - {"vendaId":15,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-29T23:18:53.713Z [livraria-api] info POST /venda - {"vendaId":16,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-29T23:19:05.023Z [livraria-api] info POST /venda - {"vendaId":17,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-29T23:19:06.318Z [livraria-api] info POST /venda - {"vendaId":18,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-30T21:55:22.174Z [livraria-api] info POST /venda - {"vendaId":19,"data":"2000-01-01","clienteId":1,"livroId":1,"valor":"15.5"}
+2022-06-30T21:55:41.625Z [livraria-api] error POST  - O livro informado nao possui estoque.
+2022-06-30T21:56:57.231Z [livraria-api] info POST /venda - {"vendaId":20,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"15.5"}
+2022-06-30T21:57:50.612Z [livraria-api] info POST /venda - {"livroId":5,"nome":"TTTTTESTE4444","valor":"15.5","estoque":0,"autorId":6}
+2022-06-30T22:02:07.756Z [livraria-api] info POST /venda - {"livroId":5,"nome":"TTTTTESTE4444","valor":"15.5","estoque":0,"autorId":6}
+2022-06-30T22:02:10.373Z [livraria-api] info POST /venda - {"livroId":5,"nome":"TTTTTESTE4444","valor":"15.5","estoque":0,"autorId":6}
+2022-06-30T22:02:59.601Z [livraria-api] error PUT  - livro_id is not defined
+2022-06-30T22:03:20.632Z [livraria-api] error PUT  - livro_id is not defined
+2022-06-30T22:03:57.756Z [livraria-api] info POST /venda - {"livroId":5,"nome":"TTTTTESTE4444","valor":"66","estoque":0,"autorId":6}
+2022-06-30T22:04:42.987Z [livraria-api] info POST /venda - {"livroId":5,"nome":"TTTTTESTE4444","valor":"66","estoque":0,"autorId":6}
+2022-06-30T22:06:14.572Z [livraria-api] info POST /venda - {"vendaId":26,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"66"}
+2022-06-30T22:06:44.616Z [livraria-api] info GET /venda/id
+2022-06-30T22:14:53.274Z [livraria-api] error GET  - VendaRepository.getVendasByAutor is not a function
+2022-06-30T22:15:31.088Z [livraria-api] error GET  - VendaRepository.getVendasByAutor is not a function
+2022-06-30T22:16:00.222Z [livraria-api] info POST /autor - {"autorId":7,"nome":"Testeeee","email":"subira@hotmail.com","telefone":"32510505"}
+2022-06-30T22:16:08.021Z [livraria-api] info POST /livro - {"livroId":6,"nome":"TTTTTESTE4444","valor":"15.5","estoque":1,"autorId":7}
+2022-06-30T22:16:25.190Z [livraria-api] info POST /venda - {"vendaId":27,"data":"2000-01-01","clienteId":1,"livroId":6,"valor":"15.5"}
+2022-06-30T22:20:55.523Z [livraria-api] error POST  - VendaRepository.insertSale is not a function
+2022-06-30T22:21:10.559Z [livraria-api] error POST  - notNull Violation: vendas.valor cannot be null
+2022-06-30T22:21:46.724Z [livraria-api] info POST /venda - {"vendaId":28,"data":"2000-01-01","clienteId":1,"livroId":6,"valor":"15.5"}
+2022-06-30T22:21:50.451Z [livraria-api] info POST /venda - {"vendaId":29,"data":"2000-01-01","clienteId":1,"livroId":6,"valor":"15.5"}
+2022-06-30T23:27:25.334Z [livraria-api] error GET  - invalid input syntax for type integer: "info"
+2022-06-30T23:27:53.357Z [livraria-api] error GET  - ProductService is not defined
+2022-06-30T23:28:07.823Z [livraria-api] error GET  - The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function toArray
+2022-06-30T23:34:53.541Z [livraria-api] error POST  - Livro ID é obrigatorio
+2022-06-30T23:35:54.112Z [livraria-api] info POST /livro/info - {"livroId":1,"descricao":"testingg","paginas":300,"editora":"Pilgrim","avaliacoes":[],"_id":"62be335ac5f8ad6f9bb26ae8"}
+2022-06-30T23:36:19.149Z [livraria-api] error GET  - The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function toArray
+2022-06-30T23:38:01.052Z [livraria-api] info GET /livro/info
+2022-06-30T23:38:12.452Z [livraria-api] info GET /livro/info
+2022-06-30T23:46:29.634Z [livraria-api] error PUT  - next is not defined
+2022-06-30T23:50:45.487Z [livraria-api] info GET /livro/id
+2022-06-30T23:52:31.940Z [livraria-api] info GET /livro/id
+2022-06-30T23:52:58.280Z [livraria-api] info GET /livro/id
+2022-06-30T23:53:08.339Z [livraria-api] error PUT  - cliente is not defined
+2022-06-30T23:53:29.083Z [livraria-api] info PUT /livro/info - {"livroId":1,"descricao":"aaaaaaaaaaaa","paginas":300,"editora":"Pilgrim","avaliacoes":[]}
+2022-06-30T23:53:44.763Z [livraria-api] info GET /livro/id
+2022-06-30T23:55:41.204Z [livraria-api] info GET /livro/id
+2022-06-30T23:56:47.392Z [livraria-api] info GET /livro/id
+2022-06-30T23:56:54.885Z [livraria-api] info GET /livro/id
+2022-06-30T23:57:18.381Z [livraria-api] info GET /livro/id
+2022-06-30T23:57:32.846Z [livraria-api] info GET /livro/id
+2022-06-30T23:59:55.579Z [livraria-api] info GET /livro/id
+2022-07-01T00:01:54.444Z [livraria-api] info GET /livro/id
+2022-07-01T00:02:59.671Z [livraria-api] info GET /livro/id
+2022-07-01T00:05:11.291Z [livraria-api] info POST /livro/info - {"livroId":2,"descricao":"teste","paginas":300,"editora":"Pilgrim","avaliacoes":[],"_id":"62be3a376824dbea2ce2fc9b"}
+2022-07-01T00:05:15.301Z [livraria-api] info GET /livro/info
+2022-07-01T00:05:22.581Z [livraria-api] error DELETE  - LivroService.deleteLivroInfo is not a function
+2022-07-01T00:06:05.084Z [livraria-api] info DELETE /livro/info
+2022-07-01T00:06:08.921Z [livraria-api] info GET /livro/info
+2022-07-01T00:19:04.006Z [livraria-api] info GET /livro/info
+2022-07-01T00:19:15.679Z [livraria-api] info GET /livro/id
+2022-07-01T00:24:37.359Z [livraria-api] info GET /livro/info
+2022-07-01T00:25:20.471Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:25:47.237Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:32:51.079Z [livraria-api] info POST /livro/info - {"livroId":2,"descricao":"teste","paginas":300,"editora":"Pilgrim","avaliacoes":[],"_id":"62be40b3c370b3d19cb7cfd6"}
+2022-07-01T00:33:07.108Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:33:54.875Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:34:41.077Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:36:46.941Z [livraria-api] info GET /livro/info
+2022-07-01T00:37:00.920Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:37:59.946Z [livraria-api] error POST  - Livro ID e Avaliacao sao obrigatórios
+2022-07-01T00:38:10.393Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:38:28.002Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:38:42.282Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:38:58.963Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:39:11.523Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:40:02.640Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:40:35.395Z [livraria-api] info GET /livro/info
+2022-07-01T00:40:46.086Z [livraria-api] info GET /livro/id
+2022-07-01T00:41:20.322Z [livraria-api] info GET /livro/id
+2022-07-01T00:41:31.484Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:42:14.106Z [livraria-api] error POST  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:42:40.663Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:42:54.573Z [livraria-api] info GET /livro/id
+2022-07-01T00:43:47.713Z [livraria-api] error DELETE  - Cannot read properties of null (reading 'avaliacoes')
+2022-07-01T00:44:03.371Z [livraria-api] error DELETE  - livroInfo.avaliacoes.deleteOne is not a function
+2022-07-01T00:46:27.358Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:47:05.565Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:51:35.289Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:51:51.456Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:52:08.827Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T00:52:28.496Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T16:39:15.933Z [livraria-api] info GET /venda/id
+2022-07-01T16:39:22.855Z [livraria-api] info GET /venda/id
+2022-07-01T16:48:55.658Z [livraria-api] info GET /venda/id
+2022-07-01T21:34:49.415Z [livraria-api] error PUT  - Voce só pode alterar o seu proprio perfil
+2022-07-01T21:35:08.202Z [livraria-api] error PUT  - cliente_id is not defined
+2022-07-01T21:35:22.633Z [livraria-api] error PUT  - cliente_id is not defined
+2022-07-01T21:36:00.989Z [livraria-api] info PUT /cliente - {"clienteId":2,"nome":"Isabella","email":"bellinha@hotmail.com","telefone":"3791","endereco":"apartamento"}
+2022-07-01T21:37:34.333Z [livraria-api] info GET /livro/id
+2022-07-01T21:39:43.149Z [livraria-api] info CREATE AVALIACAO /livro/info/avaliacao
+2022-07-01T21:48:43.407Z [livraria-api] error POST  - ClienteId Nao existe!
+2022-07-01T21:49:25.611Z [livraria-api] error POST  - ClienteId Nao existe!
+2022-07-01T21:49:58.793Z [livraria-api] error POST  - ClienteId Nao existe!
+2022-07-01T21:50:15.978Z [livraria-api] error POST  - ClienteId Nao existe!
+2022-07-01T21:50:28.166Z [livraria-api] info POST /venda - {"vendaId":30,"data":"2000-01-01","clienteId":2,"livroId":6,"valor":"15.5"}
+2022-07-01T21:50:44.590Z [livraria-api] error POST  - O produto informado nao possui estoque.
+2022-07-01T21:50:44.599Z [livraria-api] error POST  - O produto informado nao possui estoque.
+2022-07-01T21:51:21.097Z [livraria-api] info POST /venda - {"vendaId":31,"data":"2000-01-01","clienteId":1,"livroId":5,"valor":"66"}
+2022-07-01T21:51:23.016Z [livraria-api] error POST  - O produto informado nao possui estoque.
+2022-07-01T21:51:28.760Z [livraria-api] info GET /livro/id
+2022-07-01T21:52:53.703Z [livraria-api] error POST  - USUARIO ADMIN PREENCHE O LIVROID!
+2022-07-01T21:53:08.614Z [livraria-api] error POST  - O produto informado nao possui estoque.
+2022-07-01T21:53:29.564Z [livraria-api] error POST  - O produto informado nao possui estoque.
+2022-07-01T21:53:34.310Z [livraria-api] error POST  - USUARIO ADMIN PREENCHE O CLIENTEID!
+2022-07-01T21:58:48.426Z [livraria-api] error GET  - Voce só pode consultar suas compras!
+2022-07-01T21:58:56.129Z [livraria-api] info GET /venda/id
+2022-07-01T21:59:05.695Z [livraria-api] info GET /venda/id
+2022-07-01T21:59:16.335Z [livraria-api] info GET /venda/id
+2022-07-02T12:37:43.157Z [livraria-api] info POST /autor - {"autorId":8,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T12:39:44.417Z [livraria-api] info POST /autor - {"autorId":9,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T12:56:28.833Z [livraria-api] info POST /autor - {"autorId":10,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T12:56:29.008Z [livraria-api] info GET /autor/id
+2022-07-02T12:56:29.167Z [livraria-api] info POST /livro - {"livroId":7,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":10}
+2022-07-02T12:56:29.331Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T12:58:01.148Z [livraria-api] info GET /livro/id
+2022-07-02T12:58:05.125Z [livraria-api] info GET /livro/id
+2022-07-02T12:58:37.267Z [livraria-api] info POST /autor - {"autorId":11,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T12:58:37.453Z [livraria-api] info GET /autor/id
+2022-07-02T12:58:37.617Z [livraria-api] info POST /livro - {"livroId":8,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":11}
+2022-07-02T12:59:57.822Z [livraria-api] info POST /autor - {"autorId":12,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T12:59:57.992Z [livraria-api] info GET /autor/id
+2022-07-02T12:59:58.150Z [livraria-api] info POST /livro - {"livroId":9,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":12}
+2022-07-02T12:59:58.308Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:00:47.902Z [livraria-api] info POST /autor - {"autorId":13,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:00:48.092Z [livraria-api] info GET /autor/id
+2022-07-02T13:00:48.258Z [livraria-api] info POST /livro - {"livroId":10,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":13}
+2022-07-02T13:00:48.429Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:02:05.713Z [livraria-api] info POST /autor - {"autorId":14,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:02:05.888Z [livraria-api] info GET /autor/id
+2022-07-02T13:02:06.057Z [livraria-api] info POST /livro - {"livroId":11,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":14}
+2022-07-02T13:02:06.217Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:03:42.927Z [livraria-api] info POST /autor - {"autorId":15,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:03:43.105Z [livraria-api] info GET /autor/id
+2022-07-02T13:03:43.264Z [livraria-api] info POST /livro - {"livroId":12,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":15}
+2022-07-02T13:03:43.424Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:04:27.936Z [livraria-api] info POST /autor - {"autorId":16,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:04:28.114Z [livraria-api] info GET /autor/id
+2022-07-02T13:04:28.273Z [livraria-api] info POST /livro - {"livroId":13,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":16}
+2022-07-02T13:04:28.433Z [livraria-api] info POST /cliente - {"clienteId":5,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:04:53.324Z [livraria-api] info POST /autor - {"autorId":17,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:04:53.499Z [livraria-api] info GET /autor/id
+2022-07-02T13:04:53.662Z [livraria-api] info POST /livro - {"livroId":14,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":17}
+2022-07-02T13:04:53.832Z [livraria-api] info POST /cliente - {"clienteId":6,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:04:53.992Z [livraria-api] info GET /cliente/id
+2022-07-02T13:04:54.302Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:05:18.644Z [livraria-api] info POST /autor - {"autorId":18,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:05:18.812Z [livraria-api] info GET /autor/id
+2022-07-02T13:05:18.971Z [livraria-api] info POST /livro - {"livroId":15,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":18}
+2022-07-02T13:05:19.131Z [livraria-api] info POST /cliente - {"clienteId":7,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:05:19.292Z [livraria-api] info GET /cliente/id
+2022-07-02T13:05:19.451Z [livraria-api] error POST  - Nao deve informar o valor!
+2022-07-02T13:06:02.173Z [livraria-api] info POST /autor - {"autorId":19,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:06:02.351Z [livraria-api] info GET /autor/id
+2022-07-02T13:06:02.512Z [livraria-api] info POST /livro - {"livroId":16,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":19}
+2022-07-02T13:06:02.670Z [livraria-api] info POST /cliente - {"clienteId":8,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:06:02.830Z [livraria-api] info GET /cliente/id
+2022-07-02T13:06:02.990Z [livraria-api] error POST  - Nao deve informar o valor!
+2022-07-02T13:07:38.296Z [livraria-api] info POST /autor - {"autorId":20,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:07:38.479Z [livraria-api] info GET /autor/id
+2022-07-02T13:07:38.648Z [livraria-api] info POST /livro - {"livroId":17,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":20}
+2022-07-02T13:07:38.808Z [livraria-api] info POST /cliente - {"clienteId":9,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:07:38.968Z [livraria-api] info GET /cliente/id
+2022-07-02T13:07:39.128Z [livraria-api] error POST  - Nao deve informar o valor!
+2022-07-02T13:08:08.650Z [livraria-api] info POST /autor - {"autorId":21,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:08:08.828Z [livraria-api] info GET /autor/id
+2022-07-02T13:08:08.997Z [livraria-api] info POST /livro - {"livroId":18,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":21}
+2022-07-02T13:08:09.157Z [livraria-api] info POST /cliente - {"clienteId":10,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:08:09.317Z [livraria-api] info GET /cliente/id
+2022-07-02T13:08:10.397Z [livraria-api] info POST /venda - {"vendaId":32,"data":"2000-01-01","clienteId":5,"livroId":18,"valor":"150"}
+2022-07-02T13:10:22.866Z [livraria-api] info POST /autor - {"autorId":22,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:10:23.034Z [livraria-api] info GET /autor/id
+2022-07-02T13:10:23.193Z [livraria-api] info POST /livro - {"livroId":19,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":22}
+2022-07-02T13:10:23.353Z [livraria-api] info POST /cliente - {"clienteId":11,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:10:23.513Z [livraria-api] info GET /cliente/id
+2022-07-02T13:10:24.593Z [livraria-api] info POST /venda - {"vendaId":33,"data":"2000-01-01","clienteId":11,"livroId":19,"valor":"150"}
+2022-07-02T13:10:24.755Z [livraria-api] info GET /venda/id
+2022-07-02T13:10:55.137Z [livraria-api] info POST /autor - {"autorId":23,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:10:55.314Z [livraria-api] info GET /autor/id
+2022-07-02T13:10:55.473Z [livraria-api] info POST /livro - {"livroId":20,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":23}
+2022-07-02T13:10:55.633Z [livraria-api] info POST /cliente - {"clienteId":12,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:10:55.793Z [livraria-api] info GET /cliente/id
+2022-07-02T13:10:56.862Z [livraria-api] info POST /venda - {"vendaId":34,"data":"2000-01-01","clienteId":11,"livroId":20,"valor":"150"}
+2022-07-02T13:11:45.953Z [livraria-api] info POST /autor - {"autorId":24,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:11:46.122Z [livraria-api] info GET /autor/id
+2022-07-02T13:11:46.291Z [livraria-api] info POST /livro - {"livroId":21,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":24}
+2022-07-02T13:11:46.451Z [livraria-api] info POST /cliente - {"clienteId":13,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:11:46.614Z [livraria-api] info GET /cliente/id
+2022-07-02T13:11:47.690Z [livraria-api] info POST /venda - {"vendaId":35,"data":"2000-01-01","clienteId":13,"livroId":21,"valor":"150"}
+2022-07-02T13:11:47.856Z [livraria-api] info GET /venda/id
+2022-07-02T13:31:33.150Z [livraria-api] error POST  - Nao deve informar o valor!
+2022-07-02T13:31:50.128Z [livraria-api] info POST /venda - {"vendaId":16,"data":"2000-01-01","clienteId":2,"livroId":2,"valor":"60"}
+2022-07-02T13:34:38.864Z [livraria-api] info POST /venda - {"vendaId":17,"data":"2000-01-01","clienteId":2,"livroId":4,"valor":"130"}
+2022-07-02T13:35:17.632Z [livraria-api] info GET /cliente/id
+2022-07-02T13:35:44.076Z [livraria-api] info GET /livro/id
+2022-07-02T13:40:03.082Z [livraria-api] info POST /autor - {"autorId":4,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:40:03.256Z [livraria-api] info GET /autor/id
+2022-07-02T13:40:03.431Z [livraria-api] info POST /livro - {"livroId":7,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":4}
+2022-07-02T13:40:03.605Z [livraria-api] info POST /cliente - {"clienteId":6,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:40:03.766Z [livraria-api] info GET /cliente/id
+2022-07-02T13:40:04.876Z [livraria-api] info POST /venda - {"vendaId":18,"data":"2000-01-01","clienteId":6,"livroId":7,"valor":"150"}
+2022-07-02T13:40:05.037Z [livraria-api] info GET /venda/id
+2022-07-02T13:44:26.581Z [livraria-api] info POST /autor - {"autorId":5,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:44:26.759Z [livraria-api] info GET /autor/id
+2022-07-02T13:44:26.928Z [livraria-api] info POST /livro - {"livroId":8,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":5}
+2022-07-02T13:44:27.089Z [livraria-api] error GET  - Cannot read properties of undefined (reading 'MongoClient')
+2022-07-02T13:44:57.841Z [livraria-api] info POST /autor - {"autorId":6,"nome":"Autor de Teste","email":"autordeteste@gmail.com","telefone":"3213123"}
+2022-07-02T13:44:58.019Z [livraria-api] info GET /autor/id
+2022-07-02T13:44:58.181Z [livraria-api] info POST /livro - {"livroId":9,"nome":"Livro de Teste","valor":"150","estoque":5,"autorId":6}
+2022-07-02T13:44:58.338Z [livraria-api] info POST /cliente - {"clienteId":7,"nome":"Cliente de Teste","email":"clientedeteste@gmail.com","senha":"123","telefone":"321312312","endereco":"Rua X, n 100"}
+2022-07-02T13:44:58.497Z [livraria-api] info GET /cliente/id
+2022-07-02T13:44:59.567Z [livraria-api] info POST /venda - {"vendaId":19,"data":"2000-01-01","clienteId":7,"livroId":9,"valor":"150"}
+2022-07-02T13:44:59.734Z [livraria-api] info GET /venda/id
